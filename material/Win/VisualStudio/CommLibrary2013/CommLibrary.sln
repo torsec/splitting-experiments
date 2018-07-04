@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommLibrary", "CommLibraryP\CommLibrary.vcxproj", "{584BA97C-9482-43FF-B44E-C65D4F7B34DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584BA97C-9482-43FF-B44E-C65D4F7B34DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{584BA97C-9482-43FF-B44E-C65D4F7B34DB}.Debug|Win32.Build.0 = Debug|Win32
+		{584BA97C-9482-43FF-B44E-C65D4F7B34DB}.Release|Win32.ActiveCfg = Release|Win32
+		{584BA97C-9482-43FF-B44E-C65D4F7B34DB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

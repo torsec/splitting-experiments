@@ -1,0 +1,18 @@
+Comment #1: Understand code logic
+Comment #2: Debugging
+Comment #3: Make hypothesis
+Comment #4: Build attack strategy
+Comment #5: Identify code containing sensitive asset
+Comment #6: String / name analysis
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result
+Comment #9: Make hypothesis on reasons for attack failure
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack result
+Comment #12: Confirm hypothesis
+Comment #13: Build attack strategy
+Comment #14: Understand code logic
+Comment #15: Tamper with code statically
+Comment #16: Analyze attack result
+Comment #17: Tamper with code statically
+Comment #18: Analyze attack result

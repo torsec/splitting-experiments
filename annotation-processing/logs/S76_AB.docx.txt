@@ -1,0 +1,16 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Tools->Debugger
+Comment #3: TIME:3min
+Comment #4: Build the attack strategy
+Comment #5: TIME:10min
+Comment #6: Understand code logic
+Comment #7: TIME:10min
+Comment #8: Understand code logic
+Comment #9: TIME:20min
+Comment #10: Understand code logic
+Comment #11: Identify points of attack
+Comment #12: TIME:15min
+Comment #13: Tamper with code statically
+Comment #14: Analyze attack result
+Comment #15: TIME: 7nub
+Comment #16: Make hypothesis on reasons for attack failure

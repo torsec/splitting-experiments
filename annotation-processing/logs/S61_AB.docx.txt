@@ -1,0 +1,6 @@
+Comment #1: Understand code logic
+Comment #2: Tamper with code statically
+Comment #3: Tamper with data
+Comment #4: Analyze attack result
+Comment #5: Tamper with code statically
+Comment #6: Make hypothesis on reasons for attack failure

@@ -1,0 +1,13 @@
+Comment #1: Build the attack strategy
+Comment #2: Understand code logic
+Comment #3: Tamper with code statically
+Comment #4: TIME: 30 min (last two comments)
+Comment #5: Analyze attack result
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result
+Comment #8: Understand code logic
+Comment #9: Identify points of attack
+Comment #10: Tamper with code statically
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack result
+Comment #13: Confirm hypothesis

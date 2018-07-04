@@ -1,0 +1,16 @@
+Comment #1: Identify code containing sensitive asset
+Comment #2: Tamper with code statically
+Comment #3: Tamper with code statically
+Comment #4: Identify code containing sensitive asset
+Comment #5: String / name analysis
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result
+Comment #8: Understand the app
+Comment #9: String / name analysis
+Comment #10: Identify code containing sensitive asset
+Comment #11: Identify code containing sensitive asset
+Comment #12: String / name analysis
+Comment #13: Tamper with code statically
+Comment #14: Analyze attack result
+Comment #15: Tamper with code statically
+Comment #16: Analyze attack result

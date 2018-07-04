@@ -1,0 +1,3 @@
+Comment #1: Identify code containing sensitive assets
+Comment #2: Tamper with code statically
+Comment #3: Analyee attack results

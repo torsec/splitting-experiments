@@ -1,0 +1,12 @@
+Comment #1: TIME: veloce
+Comment #2: Preliminary understanding of the app
+Comment #3: Identify assets by naming scheme
+Comment #4: String / name analysis
+Comment #5: Identify input / data format
+Comment #6: Understand code logic
+Comment #7: Identify code containing sensitive asset
+Comment #8: Understand code logic
+Comment #9: Tamper with code and execution
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack result
+Comment #12: Analyze attack result

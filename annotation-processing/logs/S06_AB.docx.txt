@@ -1,0 +1,7 @@
+Comment #1: Understand the app
+Comment #2: TIME: 30min
+Comment #3: Tamper with code statically
+Comment #4: Tamper with code statically
+Comment #5: Tamper with data
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result

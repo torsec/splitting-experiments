@@ -1,0 +1,24 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Understand code logic
+Comment #3: TIME: a few minutes
+Comment #4: Identify points of attack
+Comment #5: Tamper with code statically
+Comment #6: Analyze attack result
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result
+Comment #9: TIME: 10 min (last four annotations)
+Comment #10: Understand code logic
+Comment #11: Identify points of attack
+Comment #12: Tamper with code statically
+Comment #13: Analyze attack result
+Comment #14: TIME: 5 min (last four annotations)
+Comment #15: Understand code logic
+Comment #16: Identify points of attack
+Comment #17: Understand code logic
+Comment #18: Identify points of attack
+Comment #19: Tamper with code statically
+Comment #20: Analyze attack result
+Comment #21: Understand code logic
+Comment #22: Evaluate and select alternative step / revise attack strategy
+Comment #23: Analyze attack result
+Comment #24: Analyze attack result

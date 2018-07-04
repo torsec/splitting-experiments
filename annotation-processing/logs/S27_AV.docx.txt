@@ -1,0 +1,12 @@
+Comment #1: Understand code logic
+Comment #2: Identify input / data format
+Comment #3: Identify code
+Comment #4: Identify sensitive asset
+Comment #5: Understand code logic
+Comment #6: Identify sensitive asset
+Comment #7: Understand code logic
+Comment #8: Tamper with code statically
+Comment #9: Identify input / data format
+Comment #10: Understand the app
+Comment #11: Tamper with code statically
+Comment #12: Tamper with code statically

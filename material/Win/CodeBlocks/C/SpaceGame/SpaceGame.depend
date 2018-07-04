@@ -1,0 +1,98 @@
+# depslib dependency file v1.0
+1437986154 source:d:\desktop\esperimenti\c\spacegame\src\game.c
+	<ncurses.h>
+	<assert.h>
+	<signal.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"gamespace.h"
+
+1110629132 c:\program files (x86)\gnuwin32\include\ncurses.h
+	<xcurses.h>
+
+1110648444 c:\program files (x86)\gnuwin32\include\xcurses.h
+	<bios.h>
+	<dos.h>
+	<os2.h>
+	<windows.h>
+	<bios.h>
+	<dos.h>
+	<os2.h>
+	<windows.h>
+	<bios.h>
+	<dos.h>
+	<bios.h>
+	<dos.h>
+	<os2.h>
+	<os2.h>
+	<stdlib.h>
+	<sys/video.h>
+	<os2.h>
+	<dos.h>
+	<windows.h>
+	<windows.h>
+	<windows.h>
+	<bios.h>
+	<dos.h>
+	<i86.h>
+	<os2.h>
+	<windows.h>
+	<bios.h>
+	<stdio.h>
+	<curspriv.h>
+	<stdlib.h>
+
+1424883324 d:\desktop\esperimenti\c\spacegame\src\gamespace.h
+	"list.h"
+
+1424883324 d:\desktop\esperimenti\c\spacegame\src\list.h
+	<stdio.h>
+	<assert.h>
+
+1478122685 source:d:\desktop\esperimenti\c\spacegame\src\gamespace.c
+	<ncurses.h>
+	<assert.h>
+	<signal.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"gamespace.h"
+
+1424883324 source:d:\desktop\esperimenti\c\spacegame\src\list.c
+	"list.h"
+	<stdlib.h>
+
+1437986154 source:d:\documents\human-experiments\2_2016\win\codeblocks\c\spacegame\src\game.c
+	<ncurses.h>
+	<assert.h>
+	<signal.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"gamespace.h"
+
+1424883324 d:\documents\human-experiments\2_2016\win\codeblocks\c\spacegame\src\gamespace.h
+	"list.h"
+
+1424883324 d:\documents\human-experiments\2_2016\win\codeblocks\c\spacegame\src\list.h
+	<stdio.h>
+	<assert.h>
+
+1478122685 source:d:\documents\human-experiments\2_2016\win\codeblocks\c\spacegame\src\gamespace.c
+	<ncurses.h>
+	<assert.h>
+	<signal.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"gamespace.h"
+
+1424883324 source:d:\documents\human-experiments\2_2016\win\codeblocks\c\spacegame\src\list.c
+	"list.h"
+	<stdlib.h>
+

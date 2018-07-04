@@ -1,0 +1,13 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Identify code containing sensitive asset
+Comment #3: TIME: 10-15min
+Comment #4: Understand code logic
+Comment #5: Tool->Debugger
+Comment #6: TIME:1h-1h15min
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result
+Comment #9: Tamper with code statically
+Comment #10: Make hypothesis on reasons for attack failure
+Comment #11: Analyze attack result
+Comment #12: Analyze attack result
+Comment #13: Make hypothesis on reasons for attack failure

@@ -1,0 +1,6 @@
+Comment #1: Undertand code logic
+Comment #2: Identify API calls
+Comment #3: Indetify code containing sensitive asset
+Comment #4: Make hypothesis on protection
+Comment #5: Tamper with code statically
+Comment #6: Analyze attack result

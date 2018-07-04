@@ -1,0 +1,12 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Identify points of attack
+Comment #3: Tamper with data
+Comment #4: Analyze attack result
+Comment #5: Understand the app
+Comment #6: Identify points of attack
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result
+Comment #9: Make hypothesis on reasons for attack failure
+Comment #10: TIME: 45min
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack result

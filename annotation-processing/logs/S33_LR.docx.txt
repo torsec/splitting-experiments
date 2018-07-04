@@ -1,0 +1,5 @@
+Comment #1: Understand code logic
+Comment #2: Static analysis
+Comment #3: Understand code logic
+Comment #4: Debugging
+Comment #5: Analyze attack results

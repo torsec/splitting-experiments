@@ -1,0 +1,18 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Tamper with code statically
+Comment #3: Analyze attack result
+Comment #4: Make hypothesis on reasons for attack failure
+Comment #5: String / name analysis
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Identify output generation
+Comment #11: Analyze attack result
+Comment #12: String / name analysis
+Comment #13: Tamper with code statically
+Comment #14: Make hypothesis on reasons for attack failure
+Comment #15: Build the attack strategy
+Comment #16: Tamper with code statically
+Comment #17: Analyze attack result
+Comment #18: Analyze attack result

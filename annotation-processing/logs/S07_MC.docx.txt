@@ -1,0 +1,4 @@
+Comment #1: Execution environment
+Comment #2: Preliminary understanding of the app
+Comment #3: Identify data format
+Comment #4: Tamper with code statically

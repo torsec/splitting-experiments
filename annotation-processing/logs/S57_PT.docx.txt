@@ -1,0 +1,15 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Understand code logic
+Comment #3: Tamper with code statically
+Comment #4: Understand code logic
+Comment #5: Tamper with code statically
+Comment #6: Debugging
+Comment #7: Analyze attack result
+Comment #8: Build the attack strategy
+Comment #9: Debugger
+Comment #10: Debugging
+Comment #11: Understand code logic
+Comment #12: Understand code logic
+Comment #13: Tamper with code statically
+Comment #14: Make hypothesis
+Comment #15: Analyze attack result

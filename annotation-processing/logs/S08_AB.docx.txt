@@ -1,0 +1,9 @@
+Comment #1: Understand code logic
+Comment #2: TIME: 20min
+Comment #3: String / name analysis
+Comment #4: Understand code logic
+Comment #5: Identify points of attack
+Comment #6: TIME: 20 min (last 3 comments)
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result
+Comment #9: Analyze attack result

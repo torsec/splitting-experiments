@@ -1,0 +1,15 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Identify code containing sensitive asset
+Comment #3: Identify code containing sensitive asset
+Comment #4: Debugger
+Comment #5: Debugging
+Comment #6: Understand the app
+Comment #7: Analysis / reverse engineering
+Comment #8: Identify code containing sensitive asset
+Comment #9: Understand the app
+Comment #10: Analysis / reverse engineering
+Comment #11: Identify API calls
+Comment #12: Tamper with code statically
+Comment #13: Tamper with code statically
+Comment #14: Tamper with code statically
+Comment #15: Analyze attack result

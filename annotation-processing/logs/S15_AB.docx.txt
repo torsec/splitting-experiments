@@ -1,0 +1,3 @@
+Comment #1: Tamper with code statically
+Comment #2: Understand code logic (TIME: la maggior parte)
+Comment #3: Tamper with code statically

@@ -1,0 +1,4 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Identify sensitive assets
+Comment #3: Tamper with code statically
+Comment #4: Analyze attack results

@@ -1,0 +1,6 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Identify code containing sensitive asset
+Comment #3: Understand the app
+Comment #4: Identify code containing sensitive asset
+Comment #5: String / name analysis
+Comment #6: Tamper with code statically

@@ -1,0 +1,18 @@
+Comment #1: Tamper with code statically
+Comment #2: Analyze attack result
+Comment #3: Make hypothesis
+Comment #4: Tamper with code statically
+Comment #5: Analyze attack result
+Comment #6: Confirm hypothesis
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result
+Comment #9: Tamper with code statically
+Comment #10: Analyze attack result
+Comment #11: Make hypothesis
+Comment #12: Tamper with code statically
+Comment #13: Analyze attack result
+Comment #14: Confirm hypothesis
+Comment #15: Tamper with code statically
+Comment #16: Analyze attack result
+Comment #17: Tamper with code statically
+Comment #18: Debugging

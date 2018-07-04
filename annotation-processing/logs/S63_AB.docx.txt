@@ -1,0 +1,7 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Debugging
+Comment #3: Tools->Debugger
+Comment #4: Identify points of attack
+Comment #5: Build the attack strategy
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result

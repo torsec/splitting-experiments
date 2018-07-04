@@ -1,0 +1,27 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Understand code logic
+Comment #3: Tamper with code statically
+Comment #4: Analyze attack result
+Comment #5: TIME: 10min
+Comment #6: Understand code logic
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result
+Comment #9: TIME: 5min
+Comment #10: Understand code logic
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack result
+Comment #13: TIME: 20min
+Comment #14: Evaluate and select alternative step / revise attack strategy
+Comment #15: String / name analysis
+Comment #16: NOTA: in the source code
+Comment #17: TIME: 5min
+Comment #18: Analyze attack result
+Comment #19: Attack strategy
+Comment #20: Tamper with data
+Comment #21: Analyze attack result
+Comment #22: Understand code logic
+Comment #23: Tamper with code statically
+Comment #24: Analyze attack result
+Comment #25: Tamper with code statically
+Comment #26: Analyze attack result
+Comment #27: Make hypothesis on reasons for attack failure

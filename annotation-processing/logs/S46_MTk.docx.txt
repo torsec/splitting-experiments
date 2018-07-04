@@ -1,0 +1,21 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Static analysis
+Comment #3: Identify code containing  sensitive asset
+Comment #4: Build attack strategy
+Comment #5: Assess effort
+Comment #6: Identify code containing  sensitive asset
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result
+Comment #9: Identify code containing  sensitive asset
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack result
+Comment #12: Evaluate and select alternative steps / revise strategy
+Comment #13: Identify assets by naming scheme
+Comment #14: Evaluate and select alternative steps / revise strategy
+Comment #15: Tamper with code statically
+Comment #16: Analyze attack results
+Comment #17: Evaluate and select alternative steps / revise strategy
+Comment #18: Identify code containing  sensitive asset
+Comment #19: Tamper with code statically
+Comment #20: Tamper with code statically
+Comment #21: Analyze attack results

@@ -1,0 +1,3 @@
+Comment #1: Understand code logic
+Comment #2: Tamper with code statically
+Comment #3: Make hypotheses on reasons for attack failure

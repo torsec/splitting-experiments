@@ -1,0 +1,13 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Understand the app
+Comment #3: Identify code containing sensitive asset
+Comment #4: String / name analysis
+Comment #5: Tamper with code statically
+Comment #6: Analyze attack result
+Comment #7: Identify code containing sensitive asset
+Comment #8: Make hypothesis
+Comment #9: Tamper with code statically
+Comment #10: Analyze attack result
+Comment #11: Confirm hypothesis
+Comment #12: Identify code containing sensitive asset
+Comment #13: Tamper with code statically

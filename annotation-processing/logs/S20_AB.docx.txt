@@ -1,0 +1,8 @@
+Comment #1: Tamper with code statically
+Comment #2: Understand code logic
+Comment #3: Analyze attack result
+Comment #4: TIME:1h
+Comment #5: String / name analysis
+Comment #6: Understand code logic
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result

@@ -1,0 +1,19 @@
+Comment #1: Attack strategy
+Comment #2: Attack step
+Comment #3: TIME: 20 minuti
+Comment #4: Preliminary understanding of the app
+Comment #5: Attack strategy
+Comment #6: Attack step
+Comment #7: TIME: 1h20min
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Understand code logic
+Comment #11: String / name analysis
+Comment #12: Understand code logic
+Comment #13: Tamper with code statically
+Comment #14: Analyze attack result
+Comment #15: Make hypothesis on reasons for attack failure
+Comment #16: Analyze attack result
+Comment #17: Tamper with code statically
+Comment #18: Tamper with code statically
+Comment #19: Analyze attack result

@@ -1,0 +1,18 @@
+Comment #1: Identify input / data format
+Comment #2: Identify code containing sensitive asset
+Comment #3: Tamper with code statically
+Comment #4: Analyze attack result
+Comment #5: Static analysis
+Comment #6: Understand code logic
+Comment #7: Identify code containing sensitive asset
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Evaluate and select alternative step / revise attack strategy
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack result
+Comment #13: Evaluate and select alternative step / revise attack strategy
+Comment #14: Tamper with code statically
+Comment #15: Analyze attack result
+Comment #16: Evaluate and select alternative step / revise attack strategy
+Comment #17: Identify sensitive asset
+Comment #18: Tamper with code statically

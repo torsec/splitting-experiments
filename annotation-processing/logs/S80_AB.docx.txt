@@ -1,0 +1,11 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Evaluate and select alternative step / revise attack strategy
+Comment #3: Tamper with data
+Comment #4: Understand code logic
+Comment #5: TIME:10min
+Comment #6: Understand code logic
+Comment #7: Evaluate and select alternative step / revise attack strategy
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Understand code logic
+Comment #11: Tamper with code statically

@@ -1,0 +1,6 @@
+Comment #1: Preliminary understanding app
+Comment #2: Static analysis
+Comment #3: Identify code containing sensitive asset
+Comment #4: Identify input / data format
+Comment #5: Understand code logic
+Comment #6: Build attack strategy

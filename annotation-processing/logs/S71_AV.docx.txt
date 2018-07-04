@@ -1,0 +1,6 @@
+Comment #1: Tamper with code statically
+Comment #2: Analyze attack result
+Comment #3: Debugging
+Comment #4: Debugger
+Comment #5: Identify code containing sensitive asset
+Comment #6: Understand code logic

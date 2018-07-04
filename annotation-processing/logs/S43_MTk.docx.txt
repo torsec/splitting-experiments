@@ -1,0 +1,16 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Analysis / Reverse engineering
+Comment #3: Tamper with code statically
+Comment #4: Analyze attack results
+Comment #5: Tool debugger
+Comment #6: Dynamic analysis
+Comment #7: Tamper with code statically
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Tamper with code statically
+Comment #11: Make hypothesis on reasons for attack failure
+Comment #12: Identify code containing  sensitive asset
+Comment #13: Tamper with code statically
+Comment #14: Analyze attack result
+Comment #15: Tamper with code statically
+Comment #16: Analyze attack result

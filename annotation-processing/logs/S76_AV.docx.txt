@@ -1,0 +1,10 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Debugging
+Comment #3: Debugger
+Comment #4: Understand code logic
+Comment #5: Understand code logic
+Comment #6: Static analysis
+Comment #7: Identify sensitive asset
+Comment #8: Understand code logic
+Comment #9: Tamper with code statically
+Comment #10: Analyze attack result

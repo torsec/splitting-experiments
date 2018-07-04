@@ -1,0 +1,5 @@
+Comment #1: Understand code logic
+Comment #2: Analyze attack result
+Comment #3: Identify API calls
+Comment #4: Identify code containing sensitive assets
+Comment #5: Tamper with code statically

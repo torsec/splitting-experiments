@@ -1,0 +1,16 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Understand code logic
+Comment #3: TIME:50min
+Comment #4: Identify assets by naming scheme
+Comment #5: Make hypothesis on reasons for attack failure
+Comment #6: Understand code logic
+Comment #7: Tool->Debugger
+Comment #8: Attack steps
+Comment #9: Analyze attack result
+Comment #10: Debugger
+Comment #11: Understand code logic
+Comment #12: TIME:1h30min
+Comment #13: Tamper with code statically
+Comment #14: Analyze attack result
+Comment #15: Tamper with code statically
+Comment #16: Analyze attack result

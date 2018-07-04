@@ -1,0 +1,9 @@
+Comment #1: Understand code logic
+Comment #2: Identify sensitive assets
+Comment #3: Tamper with code statically
+Comment #4: Make hypothesis on reasons for attack failure
+Comment #5: Identify output generation
+Comment #6: Identify sensitive assets
+Comment #7: Understand code logic
+Comment #8: Tamper with code statically
+Comment #9: Make hypothesis on reasons for attack failure

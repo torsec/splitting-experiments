@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF53168D1DCA694A003C95C7 /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = FF5316881DCA694A003C95C7 /* game.c */; };
+		FF53168E1DCA694A003C95C7 /* gamespace.c in Sources */ = {isa = PBXBuildFile; fileRef = FF5316891DCA694A003C95C7 /* gamespace.c */; };
+		FF53168F1DCA694A003C95C7 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = FF53168B1DCA694A003C95C7 /* list.c */; };
+		FF5316911DCA6974003C95C7 /* message-library.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5316901DCA6974003C95C7 /* message-library.o */; };
+		FF5316941DCA69AE003C95C7 /* libncurses.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5316931DCA69AE003C95C7 /* libncurses.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF53167C1DCA692E003C95C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF53167E1DCA692E003C95C7 /* GameC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameC; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5316881DCA694A003C95C7 /* game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = game.c; sourceTree = "<group>"; };
+		FF5316891DCA694A003C95C7 /* gamespace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gamespace.c; sourceTree = "<group>"; };
+		FF53168A1DCA694A003C95C7 /* gamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamespace.h; sourceTree = "<group>"; };
+		FF53168B1DCA694A003C95C7 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		FF53168C1DCA694A003C95C7 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		FF5316901DCA6974003C95C7 /* message-library.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "message-library.o"; sourceTree = "<group>"; };
+		FF5316921DCA6988003C95C7 /* message-library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "message-library.h"; sourceTree = "<group>"; };
+		FF5316931DCA69AE003C95C7 /* libncurses.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libncurses.dylib; path = usr/lib/libncurses.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF53167B1DCA692E003C95C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5316941DCA69AE003C95C7 /* libncurses.dylib in Frameworks */,
+				FF5316911DCA6974003C95C7 /* message-library.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5316751DCA692E003C95C7 = {
+			isa = PBXGroup;
+			children = (
+				FF5316931DCA69AE003C95C7 /* libncurses.dylib */,
+				FF5316901DCA6974003C95C7 /* message-library.o */,
+				FF5316801DCA692E003C95C7 /* GameC */,
+				FF53167F1DCA692E003C95C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF53167F1DCA692E003C95C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF53167E1DCA692E003C95C7 /* GameC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5316801DCA692E003C95C7 /* GameC */ = {
+			isa = PBXGroup;
+			children = (
+				FF5316921DCA6988003C95C7 /* message-library.h */,
+				FF5316881DCA694A003C95C7 /* game.c */,
+				FF5316891DCA694A003C95C7 /* gamespace.c */,
+				FF53168A1DCA694A003C95C7 /* gamespace.h */,
+				FF53168B1DCA694A003C95C7 /* list.c */,
+				FF53168C1DCA694A003C95C7 /* list.h */,
+			);
+			path = GameC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF53167D1DCA692E003C95C7 /* GameC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5316851DCA692E003C95C7 /* Build configuration list for PBXNativeTarget "GameC" */;
+			buildPhases = (
+				FF53167A1DCA692E003C95C7 /* Sources */,
+				FF53167B1DCA692E003C95C7 /* Frameworks */,
+				FF53167C1DCA692E003C95C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameC;
+			productName = GameC;
+			productReference = FF53167E1DCA692E003C95C7 /* GameC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF5316761DCA692E003C95C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = torsec.aspire;
+				TargetAttributes = {
+					FF53167D1DCA692E003C95C7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FF5316791DCA692E003C95C7 /* Build configuration list for PBXProject "GameC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF5316751DCA692E003C95C7;
+			productRefGroup = FF53167F1DCA692E003C95C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF53167D1DCA692E003C95C7 /* GameC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF53167A1DCA692E003C95C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF53168F1DCA694A003C95C7 /* list.c in Sources */,
+				FF53168E1DCA694A003C95C7 /* gamespace.c in Sources */,
+				FF53168D1DCA694A003C95C7 /* game.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF5316831DCA692E003C95C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF5316841DCA692E003C95C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF5316861DCA692E003C95C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF5316871DCA692E003C95C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF5316791DCA692E003C95C7 /* Build configuration list for PBXProject "GameC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5316831DCA692E003C95C7 /* Debug */,
+				FF5316841DCA692E003C95C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5316851DCA692E003C95C7 /* Build configuration list for PBXNativeTarget "GameC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5316861DCA692E003C95C7 /* Debug */,
+				FF5316871DCA692E003C95C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF5316761DCA692E003C95C7 /* Project object */;
+}

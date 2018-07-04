@@ -1,0 +1,13 @@
+Comment #1: Understand the app
+Comment #2: Build attack strategy
+Comment #3: Identify code containing sensitve asset
+Comment #4: Static analysis
+Comment #5: Tamper with code statically
+Comment #6: Analyze attack result
+Comment #7: Tool debugger
+Comment #8: Dynamic analysis
+Comment #9: Make hypothesis on reasons for attack failure
+Comment #10: Evaluate and select alternative steps / revise strategy
+Comment #11: Tamper with code statically
+Comment #12: Identify assets by naming scheme
+Comment #13: Analyze attack result

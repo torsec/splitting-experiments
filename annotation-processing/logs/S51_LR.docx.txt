@@ -1,0 +1,9 @@
+Comment #1: Identify sensitive assets
+Comment #2: Build the attack strategy
+Comment #3: Tamper with code statically
+Comment #4: Make hypothesis on reasons for attack failure
+Comment #5: Evaluate and select alternative steps / revise attack strategy
+Comment #6: Identify sensitive assets
+Comment #7: Understand code logic
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack results

@@ -1,0 +1,20 @@
+﻿  message-library.c
+message-library.c(68): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+message-library.c(124): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+message-library.c(125): warning C4133: 'function': incompatible types - from 'Message *' to 'const char *'
+message-library.c(153): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+message-library.c(154): warning C4133: 'function': incompatible types - from 'Message *' to 'const char *'
+message-library.c(181): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+message-library.c(182): warning C4133: 'function': incompatible types - from 'Message *' to 'const char *'
+message-library.c(211): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+message-library.c(212): warning C4133: 'function': incompatible types - from 'Message *' to 'const char *'
+message-library.c(219): warning C4133: 'function': incompatible types - from 'int *' to 'char *'
+message-library.c(272): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+message-library.c(273): warning C4133: 'function': incompatible types - from 'Message *' to 'const char *'
+message-library.c(325): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+message-library.c(326): warning C4133: 'function': incompatible types - from 'Message *' to 'const char *'
+message-library.c(327): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+message-library.c(355): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+message-library.c(356): warning C4133: 'function': incompatible types - from 'Message *' to 'const char *'
+message-library.c(359): warning C4013: 'close' undefined; assuming extern returning int
+  CommLibrary.vcxproj -> Y:\Polito\ASPIRE\internal-svn\human-experiments\2_2016\Win\VisualStudio\CommLibrary2015\Release\CommLibrary.lib

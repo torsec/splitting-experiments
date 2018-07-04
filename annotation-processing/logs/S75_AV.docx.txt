@@ -1,0 +1,22 @@
+Comment #1: Identify input / data format
+Comment #2: Static analysis
+Comment #3: Understand code logic
+Comment #4: Identify sensitive asset
+Comment #5: Tamper with code statically
+Comment #6: Debugger
+Comment #7: Debugging
+Comment #8: Analyze attack result
+Comment #9: Identify sensitive asset
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack result
+Comment #12: Debugging
+Comment #13: Identify sensitive asset
+Comment #14: Tamper with code statically
+Comment #15: Analyze attack result
+Comment #16: Tamper with code statically
+Comment #17: Analyze attack result
+Comment #18: Identify sensitive asset
+Comment #19: Tamper with code statically
+Comment #20: Analyze attack result
+Comment #21: Tamper with code statically
+Comment #22: Analyze attack result

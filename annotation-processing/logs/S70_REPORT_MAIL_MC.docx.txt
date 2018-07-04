@@ -1,0 +1,4 @@
+Comment #1: Debugging
+Comment #2: Understand code logic
+Comment #3: Tamper with code statically
+Comment #4: Analyze attack result

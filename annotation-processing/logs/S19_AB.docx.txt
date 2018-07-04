@@ -1,0 +1,12 @@
+Comment #1: Understand code logic
+Comment #2: TIME:10/15min
+Comment #3: Understand code logic
+Comment #4: TIME: 30min
+Comment #5: NOTA: understand data structures potrebbe servire per arricchire l’ontologia
+Comment #6: Understand code logic
+Comment #7: Analyze attack result
+Comment #8: Build attack strategy
+Comment #9: NOTA: analyse attack step result?
+Comment #10: Understand code logic
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack result

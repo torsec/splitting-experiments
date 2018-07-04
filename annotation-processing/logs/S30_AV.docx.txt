@@ -1,0 +1,8 @@
+Comment #1: Tamper with code statically
+Comment #2: Tamper with code statically
+Comment #3: Identify code containing sensitive asset
+Comment #4: Analyze attack result
+Comment #5: Tamper with code statically
+Comment #6: Analyze attack result
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result

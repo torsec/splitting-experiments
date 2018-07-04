@@ -1,0 +1,2 @@
+Comment #1: Understand code logic
+Comment #2: Tamper with code statically

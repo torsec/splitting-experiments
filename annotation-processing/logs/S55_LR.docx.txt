@@ -1,0 +1,12 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Tamper with code statically
+Comment #3: Analyze attack results
+Comment #4: Tamper with code statically
+Comment #5: Analyze attack results
+Comment #6: Build the attack strategy
+Comment #7: Evaluate and select alternative steps / revise attack strategy
+Comment #8: Identify output generation
+Comment #9: Identify sensitive assets
+Comment #10: Understand code logic [G
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack results

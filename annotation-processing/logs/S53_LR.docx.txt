@@ -1,0 +1,17 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Build the attack strategy
+Comment #3: Identify assets by naming scheme
+Comment #4: Tamper with code statically
+Comment #5: Analyze attack results
+Comment #6: Evaluate and select alternative steps / revise attack strategy
+Comment #7: Identify sensitive assets
+Comment #8: Understand code logic
+Comment #9: Understand code logic
+Comment #10: Identify protection
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack results
+Comment #13: Tamper with code statically
+Comment #14: Analyze attack results
+Comment #15: Evaluate and select alternative steps / revise attack strategy
+Comment #16: Tamper with code statically
+Comment #17: Analyze attack results

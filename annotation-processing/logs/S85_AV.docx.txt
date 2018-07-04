@@ -1,0 +1,43 @@
+Comment #1: Debugger
+Comment #2: Debugging
+Comment #3: Preliminary understanding of the app
+Comment #4: Static analysis
+Comment #5: Understand code logic
+Comment #6: Identify code containing sensitive asset
+Comment #7: Debugger
+Comment #8: Debugging
+Comment #9: Analyze attack result
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack result
+Comment #12: Debugging
+Comment #13: Identify sensitive asset
+Comment #14: Static analysis
+Comment #15: Identify sensitive asset
+Comment #16: Identify input / data format
+Comment #17: Tamper with code statically
+Comment #18: Analyze attack result
+Comment #19: Debugging
+Comment #20: Identify input / data format
+Comment #21: Tamper with code statically
+Comment #22: Analyze attack result
+Comment #23: Static analysis
+Comment #24: Identify sensitive asset
+Comment #25: Tamper with code statically
+Comment #26: Analyze attack result
+Comment #27: Tamper with code statically
+Comment #28: Analyze attack result
+Comment #29: Black-box analysis
+Comment #30: Static analysis
+Comment #31: Understand code logic
+Comment #32: Tamper with code statically
+Comment #33: Analyze attack result
+Comment #34: Static analysis
+Comment #35: Understand code logic
+Comment #36: Debugging
+Comment #37: Identify code containing sensitive asset
+Comment #38: Tamper with code statically
+Comment #39: Analyze attack result
+Comment #40: Tamper with code statically
+Comment #41: Analyze attack result
+Comment #42: Tamper with code statically
+Comment #43: Analyze attack result

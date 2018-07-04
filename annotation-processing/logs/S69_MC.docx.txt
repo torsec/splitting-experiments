@@ -1,0 +1,6 @@
+Comment #1: Understand code logic
+Comment #2: Tamper with code statically
+Comment #3: Identify code containing sensitive assets
+Comment #4: Make hypothesis on protection
+Comment #5: Tamper with code statically
+Comment #6: Analyse attack result

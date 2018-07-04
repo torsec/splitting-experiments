@@ -1,0 +1,13 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Understand code logic
+Comment #3: Tamper with code statically
+Comment #4: Identify code containing sensitive asset
+Comment #5: Analyze attack result
+Comment #6: Make hypothesis on reasons for attack failure
+Comment #7: Identify code containing sensitive asset
+Comment #8: Tamper with code statically
+Comment #9: Debugger
+Comment #10: Debugging
+Comment #11: Analyze attack result
+Comment #12: Tamper with code statically
+Comment #13: Analyze attack result

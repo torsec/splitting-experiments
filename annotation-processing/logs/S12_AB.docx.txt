@@ -1,0 +1,16 @@
+Comment #1: Tamper with code statically
+Comment #2: Analyze attack result
+Comment #3: Make hypothesis on reasons for attack failure
+Comment #4: Make hypothesis on reasons for attack failure
+Comment #5: Tamper with data
+Comment #6: Tamper with data
+Comment #7: TIME: 1h30min
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack result
+Comment #12: Tamper with data
+Comment #13: Analyze attack result
+Comment #14: Tamper with code statically
+Comment #15: MOST EXPENSIVE TASK: debugging
+Comment #16: ATTACK STRATEGY: random or brute force (ha provato a cambiare cose senza essere riuscito a capire realmente in codice)

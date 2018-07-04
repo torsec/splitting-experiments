@@ -1,0 +1,572 @@
+Case;Event
+1;START
+1;Preliminary understanding of the app
+1;Identify code containing sensitive assets
+1;Understand the app
+1;Identify code containing sensitive assets
+1;String / name analysis
+1;Tamper with the code statically
+1;END
+2;START
+2;Understand code logic
+2;String / name analysis
+2;Understand code logic
+2;Identify points of attack
+2;Tamper with the code statically
+2;Analyze attack results
+2;Analyze attack results
+2;END
+3;START
+3;Identify code containing sensitive assets
+3;Identify API calls
+3;String / name analysis
+3;Understand code logic
+3;Tamper with the code statically
+3;Identify API calls
+3;Analyze attack results
+3;Tamper with the code statically
+3;END
+4;START
+4;Preliminary understanding of the app
+4;Identify assets by naming scheme
+4;String / name analysis
+4;Identify input / data format
+4;Understand code logic
+4;Identify code containing sensitive assets
+4;Understand code logic
+4;Tamper with code and execution
+4;Tamper with the code statically
+4;Analyze attack results
+4;Analyze attack results
+4;END
+5;START
+5;Preliminary understanding of the app
+5;String / name analysis
+5;Identify code containing sensitive assets
+5;String / name analysis
+5;Identify API calls
+5;Tamper with the code statically
+5;Analyze attack results
+5;Tamper with the code statically
+5;END
+6;START
+6;Preliminary understanding of the app
+6;Tamper with the code statically
+6;Analyze attack results
+6;Understand code logic
+6;String / name analysis
+6;Understand code logic
+6;Tamper with the code statically
+6;Analyze attack results
+6;Make hypothesis on reasons for attack failure
+6;Analyze attack results
+6;Tamper with the code statically
+6;Tamper with the code statically
+6;Analyze attack results
+6;END
+7;START
+7;Identify code containing sensitive assets
+7;Tamper with the code statically
+7;Tamper with the code statically
+7;Identify code containing sensitive assets
+7;String / name analysis
+7;Tamper with the code statically
+7;Analyze attack results
+7;Understand the app
+7;String / name analysis
+7;Identify code containing sensitive assets
+7;Identify code containing sensitive assets
+7;String / name analysis
+7;Tamper with the code statically
+7;Analyze attack results
+7;Tamper with the code statically
+7;Analyze attack results
+7;END
+8;START
+8;Preliminary understanding of the app
+8;Understand code logic
+8;Understand code logic
+8;String / name analysis
+8;Tamper with data
+8;Understand code logic
+8;Tamper with the code statically
+8;Analyze attack results
+8;Understand code logic
+8;Tamper with the code statically
+8;Analyze attack results
+8;END
+9;START
+9;Preliminary understanding of the app
+9;Understand the app
+9;Identify code containing sensitive assets
+9;String / name analysis
+9;Tamper with the code statically
+9;Analyze attack results
+9;Identify code containing sensitive assets
+9;Make hypothesis
+9;Tamper with the code statically
+9;Analyze attack results
+9;Confirm hypothesis
+9;Identify code containing sensitive assets
+9;Tamper with the code statically
+9;END
+10;START
+10;Understand code logic
+10;Understand code logic
+10;Understand code logic
+10;Analyze attack results
+10;Build the attack strategy
+10;Understand code logic
+10;Tamper with the code statically
+10;Analyze attack results
+10;END
+11;START
+11;Preliminary understanding of the app
+11;Preliminary understanding of the app
+11;Build the attack strategy
+11;Tamper with the code statically
+11;Analyze attack results
+11;Identify code containing sensitive assets
+11;String / name analysis
+11;Tamper with the code statically
+11;Build the attack strategy
+11;Analyze attack results
+11;Analyze attack results
+11;END
+12;START
+12;Preliminary understanding of the app
+12;Analysis / reverse engineering
+12;Identify input / data format
+12;Identify code containing sensitive assets
+12;Tamper with the code statically
+12;Analyze attack results
+12;Analysis / reverse engineering
+12;Identify input / data format
+12;Identify code containing sensitive assets
+12;Tamper with the code statically
+12;Understand code logic
+12;Identify code containing sensitive assets
+12;Understand code logic
+12;Tamper with the code statically
+12;Analyze attack results
+12;Make hypothesis on reasons for attack failure
+12;END
+13;START
+13;Understand code logic
+13;Analyze attack results
+13;Identify API calls
+13;Identify code containing sensitive assets
+13;Tamper with the code statically
+13;END
+14;START
+14;Analyze attack results
+14;Understand code logic
+14;Tamper with the code statically
+14;Identify code containing sensitive assets
+14;Analyze attack results
+14;Tamper with the code statically
+14;Identify code containing sensitive assets
+14;Identify code containing sensitive assets
+14;Tamper with the code statically
+14;Identify code containing sensitive assets
+14;Analyze attack results
+14;END
+15;START
+15;Understand the app
+15;Tamper with data
+15;Tamper with the code statically
+15;Analyze attack results
+15;END
+16;START
+16;Identify code containing sensitive assets
+16;Understand code logic
+16;Tamper with the code statically
+16;Tamper with the code statically
+16;Understand code logic
+16;Tamper with the code statically
+16;Tamper with the code statically
+16;Analyze attack results
+16;END
+17;START
+17;Preliminary understanding of the app
+17;Static analysis
+17;Understand code logic
+17;Identify API calls
+17;Understand code logic
+17;Tamper with the code statically
+17;Analyze attack results
+17;Identify assets by naming scheme
+17;Understand code logic
+17;Tamper with the code statically
+17;Analyze attack results
+17;Tamper with the code statically
+17;Analyze attack results
+17;END
+18;START
+18;Preliminary understanding of the app
+18;Identify input / data format
+18;Understand code logic
+18;Understand code logic
+18;Tamper with the code statically
+18;END
+19;START
+19;Preliminary understanding of the app
+19;Identify code containing sensitive assets
+19;Understand code logic
+19;Identify code containing sensitive assets
+19;Identify protection
+19;Tamper with the code statically
+19;Analyze attack results
+19;Make hypothesis on reasons for attack failure
+19;Tamper with the code statically
+19;Confirm hypothesis
+19;Make hypothesis on reasons for attack failure
+19;Analyze attack results
+19;END
+20;START
+20;Preliminary understanding of the app
+20;Identify code containing sensitive assets
+20;Tamper with the code statically
+20;Analyze attack results
+20;END
+21;START
+21;Preliminary understanding of the app
+21;Identify code containing sensitive assets
+21;Tamper with the code statically
+21;Build a workaround
+21;Make hypothesis
+21;Analyze attack results
+21;Confirm hypothesis
+21;END
+22;START
+22;Prepare the environment
+22;Preliminary understanding of the app
+22;Identify code containing sensitive assets
+22;Identify protection
+22;Understand code logic
+22;Debugging
+22;Tamper with the code statically
+22;Black-box analysis
+22;Evaluate and select alternative steps / revise strategy
+22;Tamper with the code statically
+22;Analyze attack results
+22;Understand code logic
+22;Debugging
+22;Identify code containing sensitive assets
+22;Tamper with the code statically
+22;Make hypothesis on reasons for attack failure
+22;Understand code logic
+22;Debugging
+22;Tamper with the code statically
+22;Analyze attack results
+22;END
+23;START
+23;Understand the app
+23;Preliminary understanding of the app
+23;Identify code containing sensitive assets
+23;Static analysis
+23;Identify input / data format
+23;Tamper with data
+23;Understand code logic
+23;Analyze attack results
+23;Evaluate and select alternative steps / revise strategy
+23;Tamper with the code statically
+23;Dynamic analysis
+23;Tamper with data
+23;Analyze attack results
+23;Make hypothesis on reasons for attack failure
+23;Tamper with the code statically
+23;Analyze attack results
+23;END
+24;START
+24;Preliminary understanding of the app
+24;Identify code containing sensitive assets
+24;Identify protection
+24;Tamper with the code statically
+24;END
+25;START
+25;Preliminary understanding of the app
+25;Static analysis
+25;Identify code containing sensitive assets
+25;Identify input / data format
+25;Understand code logic
+25;Build the attack strategy
+25;END
+26;START
+26;Preliminary understanding of the app
+26;Tamper with the code statically
+26;Analyze attack results
+26;Identify points of attack
+26;Tamper with the code statically
+26;Analyze attack results
+26;END
+27;START
+27;Preliminary understanding of the app
+27;Build the attack strategy
+27;Identify code containing sensitive assets
+27;Tamper with the code statically
+27;Analyze attack results
+27;Evaluate and select alternative steps / revise strategy
+27;END
+28;START
+28;Preliminary understanding of the app
+28;Tamper with the code statically
+28;Understand code logic
+28;Tamper with the code statically
+28;Limit scope of attack
+28;Understand code logic
+28;Understand code logic
+28;Identify code containing sensitive assets
+28;Tamper with the code statically
+28;END
+29;START
+29;END
+30;START
+30;Evaluate attack results
+30;Tamper with the code statically
+30;END
+31;START
+31;Build the attack strategy
+31;Preliminary understanding of the app
+31;Identify API calls
+31;Understand code logic
+31;Identify assets by naming scheme
+31;Understand code logic
+31;Evaluate and select alternative steps / revise strategy
+31;Tamper with the code statically
+31;Analyze attack results
+31;Evaluate and select alternative steps / revise strategy
+31;Understand code logic
+31;Tamper with the code statically
+31;Recognize anomalous/unexpected behaviour
+31;Evaluate and select alternative steps / revise strategy
+31;END
+32;START
+32;Preliminary understanding of the app
+32;Static analysis
+32;Identify assets by naming scheme
+32;Preliminary understanding of the app
+32;Static analysis
+32;Tamper with the code statically
+32;Analyze attack results
+32;Identify code containing sensitive assets
+32;Evaluate and select alternative steps / revise strategy
+32;END
+33;START
+33;Preliminary understanding of the app
+33;Identify input / data format
+33;Identify code containing sensitive assets
+33;Tamper with the code statically
+33;Analyze attack results
+33;Debugging
+33;Analyze attack results
+33;Evaluate and select alternative steps / revise strategy
+33;Identify code containing sensitive assets
+33;Debugging
+33;Identify protection
+33;Tamper with the code statically
+33;Analyze attack results
+33;END
+34;START
+34;Preliminary understanding of the app
+34;Understand code logic
+34;Tamper with the code statically
+34;Understand code logic
+34;Tamper with the code statically
+34;Debugging
+34;Analyze attack results
+34;Build the attack strategy
+34;Debugging
+34;Understand code logic
+34;Understand code logic
+34;Tamper with the code statically
+34;Make hypothesis
+34;Analyze attack results
+34;END
+35;START
+35;Understand code logic
+35;Tamper with the code statically
+35;Tamper with data
+35;Analyze attack results
+35;Tamper with the code statically
+35;Make hypothesis on reasons for attack failure
+35;END
+36;START
+36;Understand code logic
+36;Tamper with the code statically
+36;Make hypothesis on reasons for attack failure
+36;END
+37;START
+37;Preliminary understanding of the app
+37;Debugging
+37;Identify points of attack
+37;Build the attack strategy
+37;Tamper with the code statically
+37;Analyze attack results
+37;END
+38;START
+38;Understand code logic
+38;Identify code containing sensitive assets
+38;Make hypothesis
+38;Tamper with the code statically
+38;Analyze attack results
+38;END
+39;START
+39;Understand code logic
+39;Tamper with the code statically
+39;END
+40;START
+40;Understand code logic
+40;Identify API calls
+40;Identify code containing sensitive assets
+40;Make hypothesis on protection
+40;Tamper with the code statically
+40;Analyze attack results
+40;END
+41;START
+41;Understand the app
+41;Debugging
+41;Identify code containing sensitive assets
+41;Tamper with the code statically
+41;Analyze attack results
+41;Understand code logic
+41;Tamper with the code statically
+41;Analyze attack results
+41;END
+42;START
+42;Preliminary understanding of the app
+42;Understand code logic
+42;Tamper with the code statically
+42;Analyze attack results
+42;Identify input / data format
+42;Make hypothesis on protection
+42;Analyze attack results
+42;Make hypothesis on reasons for attack failure
+42;Tamper with the code statically
+42;Analyze attack results
+42;Make hypothesis on reasons for attack failure
+42;Identify code containing sensitive assets
+42;Tamper with the code statically
+42;Analyze attack results
+42;END
+43;START
+43;Understand code logic
+43;Tamper with the code statically
+43;Identify code containing sensitive assets
+43;Make hypothesis on protection
+43;Tamper with the code statically
+43;Analyze attack results
+43;END
+44;START
+44;Preliminary understanding of the app
+44;Understand code logic
+44;Identify code containing sensitive assets
+44;String / name analysis
+44;Tamper with the code statically
+44;Understand code logic
+44;Tamper with the code statically
+44;Analyze attack results
+44;END
+45;START
+45;Preliminary understanding of the app
+45;Identify code containing sensitive assets
+45;Static analysis
+45;Understand code logic
+45;Identify code containing sensitive assets
+45;Tamper with the code statically
+45;Analyze attack results
+45;Identify code containing sensitive assets
+45;Tamper with the code statically
+45;Analyze attack results
+45;END
+46;START
+46;Preliminary understanding of the app
+46;Understand code logic
+46;Tamper with the code statically
+46;Analyze attack results
+46;Understand code logic
+46;Tamper with the code statically
+46;Analyze attack results
+46;Understand code logic
+46;Tamper with the code statically
+46;Analyze attack results
+46;Evaluate and select alternative steps / revise strategy
+46;String / name analysis
+46;Analyze attack results
+46;Tamper with data
+46;Analyze attack results
+46;Understand code logic
+46;Tamper with the code statically
+46;Analyze attack results
+46;Tamper with the code statically
+46;Analyze attack results
+46;Make hypothesis on reasons for attack failure
+46;END
+47;START
+47;Preliminary understanding of the app
+47;Static analysis
+47;Identify code containing sensitive assets
+47;Understand code logic
+47;Evaluate and select alternative steps / revise strategy
+47;Tamper with the code statically
+47;Analyze attack results
+47;Identify code containing sensitive assets
+47;Understand code logic
+47;Tamper with the code statically
+47;Analyze attack results
+47;String / name analysis
+47;Identify code containing sensitive assets
+47;Tamper with the code statically
+47;Analyze attack results
+47;END
+48;START
+48;Understand code logic
+48;Build the attack strategy
+48;Understand code logic
+48;Tamper with the code statically
+48;Analyze attack results
+48;Understand code logic
+48;Tamper with the code statically
+48;Analyze attack results
+48;Make hypothesis on reasons for attack failure
+48;Tamper with the code statically
+48;Analyze attack results
+48;Make hypothesis on reasons for attack failure
+48;Tamper with the code statically
+48;Analyze attack results
+48;Make hypothesis on reasons for attack failure
+48;Tamper with the code statically
+48;Analyze attack results
+48;END
+49;START
+49;Preliminary understanding of the app
+49;Identify input / data format
+49;Understand code logic
+49;Tamper with the code statically
+49;Analyze attack results
+49;Understand code logic
+49;Identify code containing sensitive assets
+49;Tamper with the code statically
+49;Analyze attack results
+49;END
+50;START
+50;Preliminary understanding of the app
+50;Evaluate and select alternative steps / revise strategy
+50;Tamper with data
+50;Understand code logic
+50;Understand code logic
+50;Evaluate and select alternative steps / revise strategy
+50;Tamper with the code statically
+50;Analyze attack results
+50;Understand code logic
+50;Tamper with the code statically
+50;END
+51;START
+51;Tamper with the code statically
+51;Identify API calls
+51;Make hypothesis
+51;Tamper with data
+51;Tamper with the code statically
+51;Analyze attack results
+51;Tamper with the code statically
+51;END

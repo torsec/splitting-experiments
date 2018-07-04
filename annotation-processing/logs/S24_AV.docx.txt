@@ -1,0 +1,15 @@
+Comment #1: Identify code containing sensitive asset
+Comment #2: Tamper with code statically
+Comment #3: Analyze attack result
+Comment #4: Identify code containing sensitive asset
+Comment #5: Understand code logic
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result
+Comment #8: Identify input / data format
+Comment #9: Understand code logic
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack result
+Comment #12: Identify input / data format
+Comment #13: Understand code logic
+Comment #14: Identify code containing sensitive asset
+Comment #15: Analyze attack result

@@ -1,0 +1,13 @@
+Comment #1: Analysis / reverse engineering
+Comment #2: Static analysis
+Comment #3: Tamper with code statically
+Comment #4: Identify code containing sensitive asset
+Comment #5: Identify code containing sensitive asset
+Comment #6: Identify code containing sensitive asset
+Comment #7: Understand code logic
+Comment #8: Debugging
+Comment #9: Debugger
+Comment #10: Identify code containing sensitive asset
+Comment #11: Understand code logic
+Comment #12: Tamper with code statically
+Comment #13: Analyze attack result

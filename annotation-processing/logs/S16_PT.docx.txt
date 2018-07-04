@@ -1,0 +1,8 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Preliminary understanding of the app
+Comment #3: Debugging
+Comment #4: Dynamic analysis
+Comment #5: Tamper with code statically
+Comment #6: Analyze attack result
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result

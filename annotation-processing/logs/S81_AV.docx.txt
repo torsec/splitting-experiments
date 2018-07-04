@@ -1,0 +1,4 @@
+Comment #1: Tamper with code statically
+Comment #2: Make hypothesis on reasons for attack failure
+Comment #3: Limitations from operating system
+Comment #4: Analyze attack result

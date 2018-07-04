@@ -1,0 +1,21 @@
+Comment #1: Debugger
+Comment #2: Debugging
+Comment #3: Understand the app
+Comment #4: Analysis / reverse engineering
+Comment #5: Tamper with code statically
+Comment #6: Identify code containing sensitive asset
+Comment #7: String / name analysis
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Identify code containing sensitive asset
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack result
+Comment #13: Make hypothesis on reasons for attack failure
+Comment #14: Build strategy
+Comment #15: Tamper with code statically
+Comment #16: Identify API calls
+Comment #17: Tamper with code statically
+Comment #18: Analyze attack result
+Comment #19: Confirm hypothesis
+Comment #20: Analyze attack result
+Comment #21: Analyze attack result

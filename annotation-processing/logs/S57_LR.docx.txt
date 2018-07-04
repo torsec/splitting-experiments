@@ -1,0 +1,13 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Identify input / data format
+Comment #3: Identify sensitive assets
+Comment #4: Tamper with code statically
+Comment #5: Analyze attack results
+Comment #6: Debugging
+Comment #7: Analyze attack results
+Comment #8: Evaluate and select alternative steps / revise attack strategy
+Comment #9: Identify sensitive assets
+Comment #10: Debugging
+Comment #11: Identify protection
+Comment #12: Tamper with code statically
+Comment #13: Analyze attack results

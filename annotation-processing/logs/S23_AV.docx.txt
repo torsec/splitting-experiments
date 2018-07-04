@@ -1,0 +1,16 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Analysis / reverse engineering
+Comment #3: Identify input / data format
+Comment #4: Identify code containing sensitive asset
+Comment #5: Tamper with the code statically
+Comment #6: Analyze attack result
+Comment #7: Analysis / reverse engineering
+Comment #8: Identify input / data format
+Comment #9: Identify code containing sensitive asset
+Comment #10: Tamper with the code statically
+Comment #11: Understand code logic
+Comment #12: Identify code containing sensitive asset
+Comment #13: Understand code logic
+Comment #14: Tamper with code statically
+Comment #15: Analyze attack result
+Comment #16: Make hypothesis on reason for attackfailure

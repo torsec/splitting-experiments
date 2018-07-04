@@ -1,0 +1,11 @@
+Comment #1: Understand code logic
+Comment #2: TIME: 15min
+Comment #3: Understand code logic
+Comment #4: TIME: 5min
+Comment #5: Understand code logic
+Comment #6: TIME: 40min
+Comment #7: Understand code logic
+Comment #8: Understand code logic
+Comment #9: Tamper with code statically
+Comment #10: Analyze attack result
+Comment #11: Make hypothesis on reasons for attack failure

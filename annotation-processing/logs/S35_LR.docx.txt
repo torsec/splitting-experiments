@@ -1,0 +1,13 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Static analysis
+Comment #3: Understand code logic
+Comment #4: Identify API calls
+Comment #5: Understand code logic
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack results
+Comment #8: Identify assets by naming scheme
+Comment #9: Understand code logic
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack results
+Comment #12: Tamper with code statically
+Comment #13: Analyze attack results

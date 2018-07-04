@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1438010148 source:/Users/vtclss/Desktop/Mac/CodeBlocks/GameC/game.c
+	<ncurses.h>
+	<assert.h>
+	<signal.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"gamespace.h"
+
+1438009506 /Users/vtclss/Desktop/Mac/CodeBlocks/GameC/gamespace.h
+	"list.h"
+
+1438009520 /Users/vtclss/Desktop/Mac/CodeBlocks/GameC/list.h
+	<stdio.h>
+	<assert.h>
+
+1478111817 source:/Users/vtclss/Desktop/Mac/CodeBlocks/GameC/gamespace.c
+	<ncurses.h>
+	<assert.h>
+	<signal.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"gamespace.h"
+	"message-library.h"
+
+1438009566 /Users/vtclss/Desktop/Mac/CodeBlocks/GameC/message-library.h
+
+1438009514 source:/Users/vtclss/Desktop/Mac/CodeBlocks/GameC/list.c
+	"list.h"
+	<stdlib.h>
+

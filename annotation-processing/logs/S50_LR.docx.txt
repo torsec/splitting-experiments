@@ -1,0 +1,14 @@
+Comment #1: Build the attack strategy
+Comment #2: Preliminary understanding of the app
+Comment #3: Identify API calls
+Comment #4: Understand code logic
+Comment #5: Identify assets by naming scheme
+Comment #6: Understand code logic
+Comment #7: Evaluate and select alternative steps / revise attack strategy
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack results
+Comment #10: Evaluate and select alternative steps / revise attack strategy
+Comment #11: Understand code logic
+Comment #12: Tamper with code statically
+Comment #13: Recognize anomalous/unexpected behaviour
+Comment #14: Evaluate and select alternative steps / revise attack strategy

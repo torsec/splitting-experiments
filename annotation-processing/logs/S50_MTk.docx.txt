@@ -1,0 +1,9 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Static analysis
+Comment #3: Identify assets by naming scheme
+Comment #4: Preliminary understanding of the app
+Comment #5: Static analysis
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result
+Comment #8: Identfy sensitive asset
+Comment #9: Evaluate and select alternative steps / revise strategy

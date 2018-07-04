@@ -1,0 +1,24 @@
+Comment #1: Execution envirnment
+Comment #2: Preliminary understanding of the app
+Comment #3: Black-box analysis
+Comment #4: Identify code containing sensitive asset
+Comment #5: Identify code containing sensitive asset
+Comment #6: String / name analysis
+Comment #7: Understand code logic
+Comment #8: Identify code containing sensitive asset
+Comment #9: Understand code logic
+Comment #10: Identify code containing sensitive asset
+Comment #11: Understand code logic
+Comment #12: Tamper with code statically
+Comment #13: Analyze attack result
+Comment #14: Tamper with code statically
+Comment #15: Analyze attack result
+Comment #16: Identify code containing sensitive asset
+Comment #17: Understand code logic
+Comment #18: Tamper with code statically
+Comment #19: Tamper with code statically
+Comment #20: Analyze attack result
+Comment #21: Data flow analysis
+Comment #22: Identify code containing sensitive asset
+Comment #23: Tamper with code statically
+Comment #24: Analyze attack result

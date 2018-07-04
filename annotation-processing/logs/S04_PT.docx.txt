@@ -1,0 +1,8 @@
+Comment #1: Debugging
+Comment #2: Identify code containing sensitive asset
+Comment #3: String / name analysis
+Comment #4: Tamper with code statically
+Comment #5: Debugging
+Comment #6: Execution environment
+Comment #7: Tamper with code statically
+Comment #8: Analyze attack result

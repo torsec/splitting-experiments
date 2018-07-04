@@ -1,0 +1,20 @@
+Comment #1: Obstacle
+Comment #2: Execution environment
+Comment #3: Limitations from operating system
+Comment #4: Tool limitations
+Comment #5: Identify code containing sensitive asset
+Comment #6: Preliminary understanding of the app
+Comment #7: Understand code logic
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Tamper with code statically
+Comment #11: Identify code containing sensitive asset
+Comment #12: Analyze attack result
+Comment #13: Tamper with code statically
+Comment #14: Analyze attack result
+Comment #15: Tamper with code statically
+Comment #16: Identify code containing sensitive asset
+Comment #17: Identify API calls
+Comment #18: Analyze attack result
+Comment #19: Obstacle
+Comment #20: Tool limitations

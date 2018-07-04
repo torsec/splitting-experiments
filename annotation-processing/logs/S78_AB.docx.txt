@@ -1,0 +1,10 @@
+Comment #1: Identify points of attack
+Comment #2: Understand code logic
+Comment #3: String / name analysis
+Comment #4: Tamper with code statically
+Comment #5: Analyze attack result
+Comment #6: Make hypothesis on reasons for attack failure
+Comment #7: Understand code logic
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Make hypothesis on reasons for attack failure

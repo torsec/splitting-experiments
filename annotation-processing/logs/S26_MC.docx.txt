@@ -1,0 +1,7 @@
+Comment #1: Understand code logic
+Comment #2: Tamper with data
+Comment #3: Debugging
+Comment #4: Tamper with code statically
+Comment #5: Analyze attack result
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result

@@ -1,0 +1,26 @@
+Comment #1: Understand code logic
+Comment #2: Identify input / data format
+Comment #3: TIME:5min
+Comment #4: Understand code logic
+Comment #5: TIME:10min
+Comment #6: Understand code logic
+Comment #7: TIME:5min
+Comment #8: Understand code logic
+Comment #9: TIME:20min
+Comment #10: Identify points of attack
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack result
+Comment #13: Tamper with code statically
+Comment #14: Analyze attack result
+Comment #15: Understand code logic
+Comment #16: TIME: 25/30min (last 5 annotations)
+Comment #17: Understand code logic
+Comment #18: Tamper with code statically
+Comment #19: Analyze attack result
+Comment #20: Make hypothesis on reasons for attack failure
+Comment #21: TIME: 10-15min
+Comment #22: Tamper with code statically
+Comment #23: Analyze attack result
+Comment #24: TIME: 5min
+Comment #25: Understand code logic
+Comment #26: Analyze attack result

@@ -1,0 +1,20 @@
+Comment #1: Prepare the environment
+Comment #2: Preliminary understanding of the app
+Comment #3: Identify sensitive assets
+Comment #4: Identify protection
+Comment #5: Understand code logic
+Comment #6: Debugging
+Comment #7: Tamper with code statically
+Comment #8: Black-box analysis
+Comment #9: Evaluate and select alternative steps / revise attack strategy
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack results
+Comment #12: Understand code logic
+Comment #13: Debugging
+Comment #14: Identify sensitive assets
+Comment #15: Tamper with code statically
+Comment #16: Make hypothesis on reasons for attack failure
+Comment #17: Understand code logic
+Comment #18: Debugging
+Comment #19: Tamper with code statically
+Comment #20: Analyze attack results

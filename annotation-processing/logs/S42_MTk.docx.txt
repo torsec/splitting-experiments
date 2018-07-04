@@ -1,0 +1,19 @@
+Comment #1: Understand the app
+Comment #2: Preliminary understanding of the app
+Comment #3: Identify code containing sensitive asset
+Comment #4: Static analysis
+Comment #5: Tool debugger
+Comment #6: Identify input / data format
+Comment #7: Tamper with data
+Comment #8: Understand code logic
+Comment #9: Analyze attack result
+Comment #10: Evaluate and select alternative steps / revise strategy
+Comment #11: Tamper with code statically
+Comment #12: Tool debugger
+Comment #13: Dynamic analysis
+Comment #14: Tamper with data
+Comment #15: Analyze attack results
+Comment #16: Make hypothesis on reasons for attack failure
+Comment #17: Tamper with code statically
+Comment #18: Analyze attack results
+Comment #19: Tool debugger

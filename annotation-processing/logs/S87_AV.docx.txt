@@ -1,0 +1,27 @@
+Comment #1: Analyze attack result
+Comment #2: Obstacle
+Comment #3: Preliminary understanding of the app
+Comment #4: Understand code logic
+Comment #5: Tamper with data
+Comment #6: Analyze attack result
+Comment #7: Identify sensitive asset
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Identify sensitive asset
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack result
+Comment #13: Identify sensitive asset
+Comment #14: Identify input / data format
+Comment #15: Identify code containing sensitive asset
+Comment #16: Tamper with code statically
+Comment #17: Analyze attack result
+Comment #18: String / name analysis
+Comment #19: Tamper with code statically
+Comment #20: Analyze attack result
+Comment #21: Tamper with code statically
+Comment #22: Analyze attack result
+Comment #23: Tamper with code statically
+Comment #24: Analyze attack result
+Comment #25: Understand code logic
+Comment #26: Tamper with data
+Comment #27: Analyze attack result

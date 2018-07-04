@@ -1,0 +1,13 @@
+Comment #1: Execution environment
+Comment #2: Tool limitations
+Comment #3: Preliminary understanding of the app
+Comment #4: Identify input / data format
+Comment #5: Understand code logic
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack result
+Comment #12: Debigging
+Comment #13: Debugger

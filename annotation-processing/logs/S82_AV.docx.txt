@@ -1,0 +1,17 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Preliminary understanding of the app
+Comment #3: Black-box analysis
+Comment #4: Recognize anomalous/unexpected behaviour
+Comment #5: Black-box analysis
+Comment #6: Understand code logic
+Comment #7: Preliminary understanding of the app
+Comment #8: Identify code containing sensitive asset
+Comment #9: Static analysis
+Comment #10: Identify code containing sensitive asset
+Comment #11: Tamper with code statically
+Comment #12: Analyze attack result
+Comment #13: Prepare attack
+Comment #14: Identify code containing sensitive asset
+Comment #15: Tamper with code statically
+Comment #16: Analyze attack result
+Comment #17: Analyze attack result

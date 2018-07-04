@@ -1,0 +1,11 @@
+Comment #1: Identify API calls
+Comment #2: Make hypothesis
+Comment #3: Tamper with code statically
+Comment #4: Analyze attack result
+Comment #5: Identify code containing sensitive assets
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result
+Comment #8: Tamper with code statically
+Comment #9: Analyze attack result
+Comment #10: Tamper with code statically
+Comment #11: Analyze attack result

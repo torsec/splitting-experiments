@@ -1,0 +1,414 @@
+---
+title: "Code Splitting Obfuscation - An Empirical Assessment"
+author: "PoliTo,FBK"
+date: "2/6/2017"
+output:
+  pdf_document:
+    fig_caption: yes
+    keep_tex: yes
+  html_document: default
+graphics: yes
+---
+```{r setup,echo=FALSE}
+#library(openxlsx)
+library(plyr)
+library(knitr)
+library(ggplot2)
+library(lmPerm)
+library(grid)
+
+#library(reshape2)
+#library(likert)
+
+load(file="CodeSplitData.R")
+
+d$Correct <- d$Outcome == "SUCCESS"
+d$Treatment <- factor(d$Treatment,c("C","TS","T"),ordered=TRUE)
+
+# imputation!!!
+d$Q1.TOT[is.na(d$Q1)] = d$Q2.TOT[is.na(d$Q1)]
+
+d <- within(d,
+{
+  Q3.TOT<-Q3.SCORE/3
+  C.SCORE <- (Q1.TOT + Q2.TOT + Q3.TOT)/3
+})
+
+strategy.levels = c(NA,"Internal","External","Both")
+d$Strategy= factor(strategy.levels[1+d$Internal+d$External*2],strategy.levels,ordered=TRUE)
+
+
+theme_set(theme_bw())
+my.palette = c("#b2df8a","#1f78b4","#a6cee3")
+my.palette = c("#e66101","#5e3c99","#b2df8a")
+
+
+```
+
+
+Results
+=======
+
+Descriptive statistics for the experiment 
+
+```{r,echo=FALSE,results='asis'}
+descriptive = ddply(d,.(Treatment),summarize,
+                    n = length(Treatment),
+                    Correct.n = sum(Correct) ,
+                    Correct.p = sum(Correct) / length(Correct),
+                    Time.mean = mean(Elapsed),
+                    Time.sd = sd(Elapsed),
+                    T.norm.p = shapiro.test(Elapsed)$p.value
+                    )
+kable(descriptive,digits = 2,
+      col.names = c("Treatment","n","n Correct","prop Correct","Time mean","Time sd","T normality"),
+      caption = "Summary statistics for Correctness and Elapsed Time .")
+```
+
+
+H1 Correctness
+-----------
+
+The proportion of correct completed tasks for the three treatments is reported in figure \ref{fig:PlotCorrectness}
+
+```{r PlotCorrectness,echo=FALSE,fig.width=5,fig.height=3,warning=FALSE,out.width="0.9\\linewidth",fig.cap="Proportion of correctly completed tasks per Treatment.\\label{fig:PlotCorrectness}"}
+cor.sum = ddply(d,.(Treatment),summarize,
+                  Correct=sum(Correct)/length(Correct),
+                  Correct.min = prop.test(sum(Correct),length(Correct))$conf.int[1],
+                  Correct.max = prop.test(sum(Correct),length(Correct))$conf.int[2]
+                )
+p <- ggplot(cor.sum,
+            aes(x=Treatment,y=Correct,color=Treatment,shape=Treatment))
+#p <- p + geom_segment(aes(xend=C.SCORE,y=Correct.min,yend=Correct.max))
+p <- p + geom_point(size=3.5,color="black")
+p <- p + geom_point(size=3)
+p <- p + ylab("Correctness")
+p <- p + scale_color_manual(values=my.palette)
+p <- p + scale_y_continuous(labels = scales::percent)
+p
+```
+
+```{r HPc,echo=FALSE}
+logit.mdl = glm(Correct ~ Treatment,data=d,family = "binomial")
+
+kable(summary(logit.mdl)$coefficients,digits=3,
+      caption="Logistic regression of Correctness vs. Treatment")
+```
+
+Both splitting treatmens (T and TS) have a significant effect on the correcteness of the attack task results.
+
+Looking at the coefficients we observe that when the reference treatment is applied -- corresponding to the _(Intercept)_ coefficient -- we have a positive log-odds, i.e. the odds of a correct result vs. an incorrect one are larger than one.
+While the coefficients of the two treatments are neagitive, meaning that they lower the odds of a correct result.
+
+
+H2: Time
+---------------
+
+The distribution of elapsed time required to complete the task is reported in figure \ref{fig:PlotTime}.
+
+```{r PlotTime,echo=FALSE,fig.width=5,fig.height=3,out.width="0.9\\linewidth",fig.cap="Boxplot of time to complete the task.\\label{fig:PlotTime}"}
+p <- ggplot(subset(d,Correct),aes(x=Treatment,y=Elapsed,fill=Treatment))
+p <- p + scale_fill_manual(values=my.palette)
+p <- p + ylab("Elapsed Time [min]")
+p <- p + geom_boxplot()
+p
+```
+
+
+Linear regression ANOVA
+
+```{r HP Time LR,echo=FALSE}
+
+kwt = kruskal.test(Elapsed ~ Treatment,data=subset(d,Correct))
+
+# 
+# lmdl = lmp(Elapsed ~ Treatment,data=d#,
+#            #contrasts = contrasts
+#            )
+# kable(summary(lmdl)$coefficients,digits=3,
+#       caption="Anova of Time vs. Application and Treatment.")
+# 
+# 
+# lmdl = lmp(Elapsed ~ Treatment, data=d,
+#            list(Treatment = "contr.treatment")
+#            )
+# kable(summary(lmdl)$coefficients,digits=3,
+#       caption="Anova of Time vs. Application and Treatment.")
+```
+
+The Kruskal-Wallis test result (p-value = `r kwt$p.value`) does not allow us to reject the null hypothesis: neither obuscation treatment has a significant effect on the attack task time.
+
+## Co-factors
+
+
+There three different tests for measuring the C knowledge skill.
+The cross correlation of the three tests results are shown in the table below:
+
+```{r , echo=FALSE}
+#pairs(d[c("Q1.TOT","Q2.TOT","Q3.TOT")],col=(as.numeric(d$Correct)+1)*2)
+
+kable(cor(d[c("Q1.TOT","Q2.TOT","Q3.TOT")]),digits = 2,
+      caption="Cross correlation of the C knowledge tests")
+
+```
+
+
+Since they all the coefficients are relatively small, we decided to linearly combine the three tests outcomes to build a unique C knowledge score.
+
+In addition we looked into the test 1 alone (just because we like fishing...).
+
+
+### Correctness and C Skill
+
+The effect of the C knowledge co-factor is reported in figure \ref{fig:PlotCorrCscore} for both test 1 alone and the combined score.
+
+```{r PlotCorrCscore,echo=FALSE,fig.width=6,fig.height=6,out.width="0.9\\linewidth",fig.cap="Proportion of correctly completed tasks by Treatment and C Score.\\label{fig:PlotCorrCscore}"}
+
+grid.newpage()
+pushViewport(viewport(layout = grid.layout(2, 1)))
+
+
+p <- ggplot(d,
+            aes(y=Q1.TOT,x=Correct,fill=Treatment))
+p <- p + geom_boxplot()
+#p <- p + geom_line(aes(group=Treatment))
+p <- p + xlab("Correct")
+p <- p + ylab("C Knowledge Score (test 1)")
+p <- p + scale_color_manual(values=my.palette)
+p <- p + facet_grid(.~Treatment)
+#p <- p + scale_y_continuous(labels = scales::percent)
+#p
+
+print(p,vp=viewport(layout.pos.row=1,layout.pos.col=1))
+
+p <- ggplot(d,
+            aes(y=C.SCORE,x=Correct,fill=Treatment))
+p <- p + geom_boxplot()
+#p <- p + geom_line(aes(group=Treatment))
+p <- p + xlab("Correct")
+p <- p + ylab("C Knowledge Score (combined score)")
+p <- p + scale_color_manual(values=my.palette)
+p <- p + facet_grid(.~Treatment)
+#p <- p + scale_y_continuous(labels = scales::percent)
+#p
+
+print(p,vp=viewport(layout.pos.row=2,layout.pos.col=1))
+
+```
+
+The effect of the C knowledge, represented by the test 1 is reported in the following table:
+
+```{r HPcC1,echo=FALSE}
+logit.mdl = glm(Correct ~ Treatment + Q1.TOT,data=d,family = "binomial")
+
+# d$C.LEVEL = d$C.SCORE/3
+# logit.mdl = lmp(Correct ~ Treatment * C.LEVEL,data=d)
+
+kable(summary(logit.mdl)$coefficients,digits=3,
+      caption="Logistic regression of Correctness vs. Treatment and C Test 1")
+```
+
+
+The effect of the C knowledge, represented by the combined score is reported in the following tables:
+
+```{r HPcCK,echo=FALSE}
+logit.mdl = glm(Correct ~ Treatment + C.SCORE,data=d,family = "binomial")
+
+# d$C.LEVEL = d$C.SCORE/3
+# logit.mdl = lmp(Correct ~ Treatment * C.LEVEL,data=d)
+
+kable(summary(logit.mdl)$coefficients,digits=3,
+      caption="Logistic regression of Correctness vs. Treatment and Combined Score")
+```
+
+We observe no significant effect of the combine C knwoledge score on the correctness.
+
+
+### Time and C Skill
+
+The relationship between the elapsed time and the C skill (both test 1 and combined score) is reported in figure \ref{plotSTimeC}.
+
+```{r plotScatterTimeC,echo=FALSE,fig.width=7,fig.height=7,out.width="0.9\\linewidth",fig.cap="Boxplot of time to complete the task vs. Treatment and C skill. \\label{plotSTimeC}"}
+
+grid.newpage()
+pushViewport(viewport(layout = grid.layout(2, 1)))
+
+p <- ggplot(subset(d,Correct),aes(x=C.SCORE,y=Elapsed,color=Treatment))
+p <- p + scale_fill_manual(values=my.palette)
+p <- p + ylab("Elapsed Time [min]")
+p <- p + xlab("Combined C Knowledge Score")
+p <- p + facet_grid(.~Treatment)
+p <- p + geom_point()
+p <- p + geom_smooth(method="lm")
+#p
+
+print(p,vp=viewport(layout.pos.row=1,layout.pos.col=1))
+
+p <- ggplot(subset(d,Correct),aes(x=Q1.TOT,y=Elapsed,color=Treatment))
+p <- p + scale_fill_manual(values=my.palette)
+p <- p + ylab("Elapsed Time [min]")
+p <- p + xlab("Test 1 C Knowledge")
+p <- p + facet_grid(.~Treatment)
+p <- p + geom_point()
+p <- p + geom_smooth(method="lm")
+#p
+
+print(p,vp=viewport(layout.pos.row=2,layout.pos.col=1))
+
+```
+
+The permutation test anova for C knowledge test 1 is reported in the following table:
+
+```{r HPtC1,echo=FALSE}
+lin.mdl = lmp(Elapsed ~ Treatment + Q1.TOT,data=subset(d,Correct),family = "binomial",settings=FALSE)
+
+kable(summary(lin.mdl)$coefficients,digits=3,
+      caption="Logistic regression of Elapsed Time vs. Treatment and C Test 1")
+```
+
+The test 1 C knowledge has a significant effect on the elapsed time.
+With test 1 we achieve an $R^2$ =`r summary(lin.mdl)$adj.r.squared`.
+
+
+```{r HPtCK,echo=FALSE}
+lin.mdl = lmp(Elapsed ~ Treatment + C.SCORE,data=subset(d,Correct),family = "binomial",settings=FALSE)
+
+# d$C.LEVEL = d$C.SCORE/3
+# logit.mdl = lmp(Correct ~ Treatment * C.LEVEL,data=d)
+
+kable(summary(lin.mdl)$coefficients,digits=3,
+      caption="Logistic regression of Elapsed Time vs. Treatment and Combined Score")
+```
+
+The combined score for C knowledge has a significant effect on the elapsed time.
+
+With the combined score we achieve an $R^2$ = `r summary(lin.mdl)$adj.r.squared`.
+
+
+Type of attack
+--------------
+
+We identified two distinct categories of attack:
+
+- internal: the computation inside specific functions has been altered,
+- external: the actual parameter in function calls have been changed.
+
+It is important to emphasize that during the attack task, both type could have been applied to achieve the goal.
+
+Depending on the type of treatment one approach was easier to apply.
+
+We can observe the number and percentage of participants that applied the two attach types in the following table.
+
+```{r descriptive type of attack,echo=FALSE}
+kable(
+ddply(d,.(Treatment),summarize,
+          n = length(Treatment),
+          internal = sum(Internal==1),
+          internal.pct = round(internal/n*100,1),
+          external = sum(External==1),
+          external.pct = round(external/n*100,1),
+          both = sum(Internal==1 & External==1),
+          both.pct = round(both/n*100,1)
+      )
+)
+```
+
+We observe that `r sum(d$Internal+d$External==0)` participants did not reported which strategy was applied!
+
+We observe that clear code was much easier to attack with an internal approach,
+the statistical significance of such a difference can be tested using a Fisher test comparing clear vs non-clear (either medium or small splitting).
+
+```{r treatment vs. internal attack,echo=FALSE}
+fisher.test(d$Treatment=="C",d$Internal)
+```
+
+The odds of an internal attack when a clear code is available are five times than for splitted code.
+
+
+```{r treatment vs. external attack,echo=FALSE}
+fisher.test(d$Treatment!="C",d$External)
+```
+
+Concerning the external attacks, the odds of adopting such an approach are 2.5 times highen when a splitted code is present. Though such a difference is not statistically significant in our experiments. Several participants, even with clear code, did apply such a strategy.
+
+
+### Attack strategy vs. Success
+
+```{r plotSuccStrategy, echo=FALSE,fig.width=8,fig.height=4, fig.cap="Success rate for different strategies by treatment"}
+d.c = ddply(subset(d,!is.na(Strategy)),.(Treatment,Strategy),summarize,
+      n = length(Treatment),
+      Correct = sum(Correct)/length(Correct)
+      )
+d.c <- ddply(d.c,.(Treatment),transform,p = n/sum(n))
+
+## vertical
+# p <- ggplot(d.c,
+#             aes(x=Strategy,y=Correct,color=Treatment,shape=Treatment))
+# p <- p + facet_grid(.~Treatment)
+# p <- p + geom_point(size=3.5,color="black")
+# p <- p + geom_point(size=3)
+# p <- p + ylab("Correctness")
+# p <- p + scale_color_manual(values=my.palette)
+# p <- p + scale_y_continuous(labels = scales::percent)
+
+## horizontal
+p <- ggplot(d.c,
+            aes(y=Strategy,x=Correct,color=Treatment,shape=Treatment))
+p <- p + facet_grid(Treatment~.)
+p <- p + geom_point(size=3.5,color="black")
+p <- p + geom_point(size=3)
+p <- p + xlab("Correctness")
+p <- p + guides(color=FALSE,shape=FALSE)
+p <- p + scale_color_manual(values=my.palette)
+p <- p + scale_x_continuous(labels = scales::percent)
+#p <- p + geom_text(aes(x=.18,label=n),hjust=1,color="black")
+p.dot = p
+
+
+p <- ggplot(d.c,
+            aes(x=Strategy,y=p,fill=Treatment))
+p <- p + facet_grid(Treatment~.)
+p <- p + geom_col(width=.5)
+p <- p + ylab("Frequency of strategy") + xlab("")
+p <- p + guides(fill=FALSE)
+p <- p + scale_fill_manual(values=my.palette)
+p <- p + scale_y_continuous(labels = scales::percent)
+p <- p + coord_flip()
+p.bar = p
+
+
+grid.newpage()
+pushViewport(viewport(layout = grid.layout(1, 2,widths=c(2,1))))
+print(p.dot, vp = viewport(layout.pos.row = 1,layout.pos.col = 1))
+print(p.bar, vp = viewport(layout.pos.row = 1,layout.pos.col = 2))
+
+```
+
+
+### Attack strategy vs. Time  
+
+```{r plotSuccTime, echo=FALSE, fig.width=5, fig.height=3, fig.cap="Attack time for different strategies by treatment (successfull attacks only)"}
+p <- ggplot(subset(d,Correct),aes(x=Strategy,y=Elapsed,fill=Treatment))
+p <- p + facet_grid(Treatment~.)
+p <- p + scale_fill_manual(values=my.palette)
+p <- p + ylab("Elapsed Time [min]")
+p <- p + geom_boxplot()
+p <- p + coord_flip()
+p
+```
+
+
+### Skill and strategy
+
+
+```{r plotSkillStrategy, echo=FALSE, fig.width=5, fig.height=3, fig.cap="Skill of people adopting different strategies by treatment"}
+p <- ggplot(subset(d,!is.na(Strategy)),aes(x=Strategy,y=C.SCORE,fill=Treatment))
+p <- p + facet_grid(Treatment~.)
+p <- p + scale_fill_manual(values=my.palette)
+p <- p + ylab("C.SCORE")
+p <- p + geom_boxplot()
+p <- p + coord_flip()
+p
+```
+
+

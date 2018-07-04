@@ -1,0 +1,10 @@
+Comment #1: Understand code logic
+Comment #2: Identify code containing sensitive assets
+Comment #3: Tamper with data
+Comment #4: Analyze attack result
+Comment #5: Tamper with code statucally
+Comment #6: Analyze attack result
+Comment #7: Black box analysis
+Comment #8: Understand code logic
+Comment #9: Tamper with code statically
+Comment #10: Analyze attack result

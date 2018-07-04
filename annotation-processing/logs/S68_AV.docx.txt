@@ -1,0 +1,5 @@
+Comment #1: Tamper with code statically
+Comment #2: Debugging
+Comment #3: Debugger
+Comment #4: Identify input / data format
+Comment #5: Tamper with code statically

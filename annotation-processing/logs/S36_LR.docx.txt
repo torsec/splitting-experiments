@@ -1,0 +1,5 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: Identify input / data format
+Comment #3: Understand code logic
+Comment #4: Understand code logic
+Comment #5: Tamper with code statically

@@ -1,0 +1,42 @@
+Comment #1: Debugging
+Comment #2: Preliminary understanding of the app
+Comment #3: Dynamic analysis
+Comment #4: Debugging
+Comment #5: Understand code logic
+Comment #6: Tamper with code statically
+Comment #7: Analyze attack result
+Comment #8: Make hypothesis
+Comment #9: Build strategy
+Comment #10: Confirm hypothesis
+Comment #11: Identify code containing sensitive asset
+Comment #12: String / name analysis
+Comment #13: Understand code logic
+Comment #14: Tamper with code statically
+Comment #15: Analyze attack result
+Comment #16: Build attack strategy
+Comment #17: Debugging
+Comment #18: Identify code containing sensitive asset
+Comment #19: Tamper with code statically
+Comment #20: Analyze attack result
+Comment #21: Confirm hypothesis
+Comment #22: Static analysis
+Comment #23: Identify code containing sensitive asset
+Comment #24: Identify code containing sensitive asset
+Comment #25: Tamper with code statically
+Comment #26: Analyze attack result
+Comment #27: Analyze attack result
+Comment #28: Make hypothesis
+Comment #29: Make hypothesis
+Comment #30: Understand code logic
+Comment #31: Tamper with code statically
+Comment #32: Analyze attack result
+Comment #33: Understand code logic
+Comment #34: Debugging
+Comment #35: Tamper with code statically
+Comment #36: Analyze attack result
+Comment #37: Tamper with code statically
+Comment #38: Analyze attack result
+Comment #39: Tamper with code statically
+Comment #40: Analyze attack result
+Comment #41: Make hypothesis
+Comment #42: Build attack strategy

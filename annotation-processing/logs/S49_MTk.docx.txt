@@ -1,0 +1,2 @@
+Comment #1: Evaluate attack results
+Comment #2: Tamper with code statically

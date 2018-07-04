@@ -1,0 +1,100 @@
+#!/usr/bin/perl
+
+$black_list{"Obstacle"} = 1;
+$black_list{"Execution environment"} = 1;
+$black_list{"Execution envirnment"} = 1;
+$black_list{"Limitations from operating system"} = 1;
+$black_list{"Tool limitations"} = 1;
+$black_list{"TIME"} = 1;
+$black_list{"Attack step"} = 1;
+$black_list{"Attack steps"} = 1;
+$black_list{"Attack strategy"} = 1;
+$black_list{"ATTACK STRATEGY"} = 1;
+$black_list{"MOST EXPENSIVE TASK"} = 1;
+$black_list{"ERROR"} = 1;
+$black_list{"NOTA"} = 1;
+$black_list{"NOTE"} = 1;
+$black_list{"Tool"} = 1;
+$black_list{"Tool debugger"} = 1;
+$black_list{"Tools"} = 1;
+$black_list{"Debugger"} = 1;
+if ($#ARGV == -1) {
+  print "Usage: convert-to-csv.prl file1_comments.txt ... fileN_comments.txt\n";
+  exit;
+}
+$case = 0;
+printf "Case;Event\n";
+for ($i = 0 ; $i <= $#ARGV ; $i++) {
+	$case++;
+	printf "%d;START\n", $case;
+	open(TXT_FILE, $ARGV[$i]);
+	while (!eof(TXT_FILE)) { 
+    	$s = <TXT_FILE>;
+	    chop($s);
+    	if ($s =~ /^Comment #\d+: ([\w\s\/\-]*[\w])/) {
+    		if (!$black_list{$1}) {
+    			$action = $1;
+    			if ($action eq "Build attack strategy" || 
+    				$action eq "Build strategy") {
+    				$action = "Build the attack strategy";
+    			}
+    			if ($action eq "Black box analysis") {
+    				$action = "Black-box analysis";
+    			}
+    			if ($action eq "String/name analysis") {
+    				$action = "String / name analysis";
+    			}
+    			if ($action eq "Debigging") {
+    				$action = "Debugging";
+    			}
+    			if ($action eq "Analyze attack result" ||
+    				$action eq "Analyee attack results" ||
+    				$action eq "Analyse attack result") {
+    				$action = "Analyze attack results";
+    			}
+    			if ($action eq "Understanding the app") {
+    				$action = "Understand the app";
+    			}
+    			if ($action eq "Analysis / Reverse engineering") {
+    				$action = "Analysis / reverse engineering";
+    			}
+    			if ($action eq "Identify code" ||
+    				$action eq "Identify code containing sensitive asset" ||
+    				$action eq "Identify code containing sensitve asset" ||
+    				$action eq "Identify sensitive asset" ||
+    				$action eq "Identfy sensitive asset" ||
+    				$action eq "Identify sensitive assets" ||
+    				$action eq "Indentify code containing sensitive assets" ||
+    				$action eq "Indetify code containing sensitive asset" ||
+    				$action eq "Indetify sensitive asset" ||
+    				$action eq "Identify code containing") {
+    				$action = "Identify code containing sensitive assets";
+    			}
+    			if ($action eq "Undertand code logic" ||
+    				$action eq "Undestand code logic") {
+    				$action = "Understand code logic";
+    			}
+    			if ($action eq "Make hypotheses on reasons for attack failure" ||
+    				$action eq "Make hypothesis on reason for attackfailure") {
+    				$action = "Make hypothesis on reasons for attack failure";
+    			}
+    			if ($action eq "Preliminary understanding app" ||
+    				$action eq "Preliminary understanding of  the app") {
+    				$action = "Preliminary understanding of the app";
+    			}
+    			if ($action eq "Tamper with code statucally" || 
+    				$action eq "Tamper with code statically") {
+    				$action = "Tamper with the code statically";
+    			}
+    			if ($action eq "Evaluate and select alternative step / revise attack strategy" || 
+    				$action eq "Evaluate and select alternative steps / revise attack strategy") {
+    				$action = "Evaluate and select alternative steps / revise strategy";
+    			}
+				printf "%d;%s\n", $case, $action;
+			}
+	    }
+	}
+	printf "%d;END\n", $case;
+	close(TXT_FILE);
+}
+

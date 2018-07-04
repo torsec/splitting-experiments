@@ -1,0 +1,7 @@
+Comment #1: Preliminary understanding of  the app
+Comment #2: Identify code containing  sensistive asset
+Comment #3: Tamper with code statically
+Comment #4: Build a workaround
+Comment #5: Make hypothesis
+Comment #6: Analyze attack result
+Comment #7: Confirm hypothesis

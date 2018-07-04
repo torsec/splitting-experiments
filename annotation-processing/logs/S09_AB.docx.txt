@@ -1,0 +1,11 @@
+Comment #1: Preliminary understanding of the app
+Comment #2: TIME:10min
+Comment #3: Understand code logic
+Comment #4: Debugging
+Comment #5: Tools->Debugger
+Comment #6: ERROR: C syntax in the attached code
+Comment #7: Analyze attack result
+Comment #8: Understand code logic
+Comment #9: Tamper with code statically
+Comment #10: Tamper with data
+Comment #11: Debugging
