@@ -26,5 +26,5 @@ More details @ [annotation processing](./annotation-processing)
 ### Analisys
 This folder contains the R scripts to process the collected data.
 
-## Taxonomy
+### Taxonomy
 This folder contains the taxonomy used to annotate the collected reports.
